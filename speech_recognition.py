@@ -79,7 +79,7 @@ def execute_command(text):
     
     # Befehle definieren
     if "browser" in text or "internet" in text:
-        webbrowser.open("https://www.google.de")
+        webbrowser.open("https://www.duckduckgo.com")
         print("Öffne Browser...")
         
     elif "notepad" in text or "editor" in text:
